@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+
+
+#menu{
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+#controlbar{
+    background-color: #000;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+}
+
+.baritem, a:link, a:visited{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.baritem{
+    border-color: #cecece;
+    border: solid;
+    padding: 2px;
+    font-family: 'Quicksand', sans-serif;
+    border-width: 1px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.baritembutton{
+    border-color: #cecece;
+    border: solid;
+    font-family: 'Quicksand', sans-serif;
+    padding: 4px;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+#version{
+    padding-left: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.appwindow{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 65px;
+}
+
+#controlbarsettings{
+    
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    border-color: #cecece;
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 4px;
+}
+#searcharea{
+    padding-top: 100px;
+}
+
+.input{
+    width: 40%;
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-color: #FFFC67;
+    border-radius: 5px;
+    color: #FFFC67;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+.ginput{
+    width: 40%;
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-color: #db4437;
+    border-radius: 5px;
+    color: #4285f4;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+.qinput{
+    width: 40%;
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-color: #4ba2ea;
+    border-radius: 5px;
+    color: #87c966;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+.binput{
+    width: 40%;
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-color: #00809d;
+    border-radius: 5px;
+    color: #00809d;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+.dinput{
+    width: 40%;
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-color: #de5833;
+    border-radius: 5px;
+    color: #de5833;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+.btn{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFFC67;
+    border-style: solid;
+    border-color: #FFFC67;
+    border-radius: 5px;
+    color: #1a1a1a;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+.btn:hover{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F9E231;
+    border-style: solid;
+    border-color: #F9E231;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #F9E231;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+.btn:active{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    border-style: solid;
+    border-color: #FFFC67;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #1a1a1a;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+
+
+.gbtn{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #db4437;
+    border-style: solid;
+    border-color: #db4437;
+    border-radius: 5px;
+    color: #1a1a1a;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+.gbtn:hover{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #4285f4;
+    border-style: solid;
+    border-color: #4285f4;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #4285f4;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+.gbtn:active{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    border-style: solid;
+    border-color: #f4b400;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #1a1a1a;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+
+.minput{
+    width: 40%;
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-color: #7abb3b;
+    border-radius: 5px;
+    color: #7abb3b;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+.mbtn{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #7abb3b;
+    border-style: solid;
+    border-color: #7abb3b;
+    border-radius: 5px;
+    color: #723a93;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+.mbtn:hover{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #723a93;
+    border-style: solid;
+    border-color: #7abb3b;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #7abb3b;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+.mbtn:active{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    border-style: solid;
+    border-color: #723a93;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #1a1a1a;
+    color: #7abb3b;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+
+
+.qbtn{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #4ba2ea;
+    border-style: solid;
+    border-color: #4ba2ea;
+    border-radius: 5px;
+    color: #1a1a1a;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+.qbtn:hover{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #87c966;
+    border-style: solid;
+    border-color: #87c966;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #87c966;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+.qbtn:active{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    border-style: solid;
+    border-color: #4ba2ea;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #1a1a1a;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+
+
+
+
+.bbtn{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #00809d;
+    border-style: solid;
+    border-color: #00809d;
+    border-radius: 5px;
+    color: #1a1a1a;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+.bbtn:hover{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #cecece;
+    border-style: solid;
+    border-color: #cecece;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #cecece;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+.bbtn:active{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    border-style: solid;
+    border-color: #00809d;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #1a1a1a;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+
+
+
+
+.dbtn{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #de5833;
+    border-style: solid;
+    border-color: #de5833;
+    border-radius: 5px;
+    color: #1a1a1a;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+.dbtn:hover{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #678fff;
+    border-style: solid;
+    border-color: #678fff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #678fff;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+.dbtn:active{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    border-style: solid;
+    border-color: #de5833;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #1a1a1a;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+
+
+.sinput{
+    width: 40%;
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #1a1a1a;
+    border-style: solid;
+    border-color: #6573ff;
+    border-radius: 5px;
+    color: #24c5b6;
+    margin-right: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+.sbtn{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #6573ff;
+    border-style: solid;
+    border-color: #6573ff;
+    border-radius: 5px;
+    color: #1a1a1a;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+.sbtn:hover{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #a6afff;
+    border-style: solid;
+    border-color: #a6afff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #a6afff;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
+.sbtn:active{
+    padding: 2mm;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    border-style: solid;
+    border-color: #24c5b6;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #1a1a1a;
+    color: #1a1a1a;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+
+}
